@@ -1,0 +1,39 @@
+                            userBrush = this._SkeletonBrushes[i % this._SkeletonBrushes.Length];
+
+                            //Draws the skeleton's head and torso
+                            joints = new[] { JointType.Head, JointType.ShoulderCenter, JointType.ShoulderLeft, JointType.Spine, JointType.ShoulderRight,
+                                              JointType.ShoulderCenter, JointType.HipCenter, JointType.HipLeft, JointType.Spine, JointType.HipRight,
+                                             JointType.HipCenter};
+                            figure = CreateFigure(skeleton, userBrush, joints);
+                            LayoutRoot.Children.Add(figure);
+                            //Draws the skeleton's left leg
+                            joints = new[] { JointType.HipLeft,JointType.KneeLeft, JointType.AnkleLeft, 
+                                             JointType.FootLeft};
+                            figure = CreateFigure(skeleton, userBrush, joints);
+                            LayoutRoot.Children.Add(figure);
+
+                            //Draws the skeleton's right leg
+                            joints = new[] {JointType.HipRight,JointType.KneeRight,
+                                            JointType.AnkleRight, JointType.FootRight};
+                            figure = CreateFigure(skeleton, userBrush, joints);
+                            LayoutRoot.Children.Add(figure);
+
+                            //Draws the skeleton's left arm
+                            joints = new[] {JointType.ShoulderLeft, JointType.ElbowLeft,
+                                            JointType.WristLeft, JointType.HandLeft};
+                            figure = CreateFigure(skeleton, userBrush, joints);
+                            LayoutRoot.Children.Add(figure);
+
+                            //Draws the skeleton's right arm
+                            joints = new[] {JointType.ShoulderRight, JointType.ElbowRight,
+                                            JointType.WristRight, JointType.HandRight};
+                            figure = CreateFigure(skeleton, userBrush, joints);
+                            LayoutRoot.Children.Add(figure);
+                            //mouse.animateMouse(skeleton.Joints[JointType.HandRight]);
+                            getCoords(skeleton.Joints[JointType.HandLeft], skeleton.Joints[JointType.HandRight], skeleton.Joints[JointType.HipLeft],
+                                skeleton.Joints[JointType.HipRight], skeleton.Joints[JointType.Spine], skeleton.Joints[JointType.Head]);
+                         /*   openApp(skeleton.Joints[JointType.HandLeft], skeleton.Joints[JointType.HandRight],
+                                skeleton.Joints[JointType.Head], skeleton.Joints[JointType.ElbowLeft], skeleton.Joints[JointType.ElbowRight],
+                                skeleton.Joints[JointType.ShoulderCenter]);*/
+                            //controlPpt(skeleton.Joints[JointType.Head],
+                              //            skeleton.Joints[JointType.HandLeft], skeleton.Joints[JointType.HandRight], skeleton.Joints[JointType.HipCenter]);

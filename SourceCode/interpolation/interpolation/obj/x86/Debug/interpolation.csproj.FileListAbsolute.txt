@@ -1,0 +1,22 @@
+D:\acads\CMSC190-2\SP\interpolation\interpolation\bin\Debug\interpolation.exe
+D:\acads\CMSC190-2\SP\interpolation\interpolation\bin\Debug\interpolation.pdb
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\MainWindow.baml
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\MainWindow.g.cs
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\App.g.cs
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\interpolation_MarkupCompile.cache
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\interpolation.g.resources
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\interpolation.Properties.Resources.resources
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\interpolation.csproj.GenerateResource.Cache
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\interpolation.exe
+D:\acads\CMSC190-2\SP\interpolation\interpolation\obj\x86\Debug\interpolation.pdb
+D:\acads\Clearance\Source code\interpolation\interpolation\bin\Debug\interpolation.exe
+D:\acads\Clearance\Source code\interpolation\interpolation\bin\Debug\interpolation.pdb
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\MainWindow.baml
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\MainWindow.g.cs
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\App.g.cs
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\interpolation_MarkupCompile.cache
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\interpolation.g.resources
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\interpolation.Properties.Resources.resources
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\interpolation.csproj.GenerateResource.Cache
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\interpolation.exe
+D:\acads\Clearance\Source code\interpolation\interpolation\obj\x86\Debug\interpolation.pdb
